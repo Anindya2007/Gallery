@@ -1,6 +1,8 @@
+import './image.css'
 
-export default function Image(link){
+
+export default function Image({ link,name }){
     return ( 
-        <img src={link} style={{height:'100% ',width:'100%',borderRadius:'20px'}}></img>
+        <img src={link} ></img>
     )
 }
