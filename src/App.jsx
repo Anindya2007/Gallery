@@ -33,7 +33,14 @@ export default function App() {
     setDisable(true);
   }
 
+  function Back(){
+    disable ? setDisable(false): '';
+  }
+
   return (<>
+    <button onClick={Back} style={{width:'150px',background:'none',color: 'white',border: 'none',padding:'none',
+    display:disable ?'block':'none'}}>Go Back</button>
+
     <Landing disable={disable} Start={Start}/>
 
     <div style={{ height: '100vh', marginLeft: '20px', display: disable ? 'block' : 'none' }}>

@@ -1,6 +1,6 @@
 body{
   background-color: black;
-  padding: 20px;
+  padding: 5px 20px 20px 20px;
 }
 
 button{
@@ -16,3 +16,4 @@ button:hover{
   border: 2px solid white;
   color: white;
 }
+
