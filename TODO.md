@@ -1,4 +1,0 @@
-- [ ] Fix `src/App.jsx` to fetch and store API data in React state (not Promise), with loading/error handling.
-- [ ] Fix `src/components/page.jsx` props handling and list rendering.
-- [ ] Fix `src/components/image.jsx` props handling for image src.
-- [ ] Run `npm run build` to verify compile success.
